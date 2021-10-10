@@ -31,7 +31,7 @@ export default class Phonebook extends Component {
       <div className={s.phonebook}>
         <Section title="Phonebook" />
         <form className={s.form} onSubmit={this.HandleSubmitButton}>
-          <label className={s.label} htmlFor="">
+          <label className={s.label} htmlFor="name">
             <p className={s.labelName}>Name</p>
             <input
               className={s.input}

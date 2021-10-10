@@ -1,13 +1,10 @@
 import { Component } from "react";
 import Section from "./components/section/Section";
 import ContactList from "./components/phonebook/contactList/ContactList";
-// import { v4 as uuidv4 } from "uuid";
-import Feedback from "./components/feedback/Feedback";
-// import Btn from "./components/FeedbackOptions/FeedbackOptions";
 import Phonebook from "./components/phonebook/Phonebook";
 import Filter from "./components/phonebook/filter/Filter";
 
-class AppPhonebook extends Component {
+class App extends Component {
   constructor() {
     super();
     this.state = {
@@ -63,12 +60,4 @@ class AppPhonebook extends Component {
     );
   }
 }
-
-export default function App() {
-  return (
-    <div>
-      <Feedback />
-      <AppPhonebook />
-    </div>
-  );
-}
+export default App;
