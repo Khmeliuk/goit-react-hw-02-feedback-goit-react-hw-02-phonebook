@@ -1,4 +1,5 @@
 import s from "./Filter.module.css";
+import PropTypes from "prop-types";
 const filter = ({ value, onChange }) => {
   return (
     <label htmlFor="">
@@ -14,3 +15,8 @@ const filter = ({ value, onChange }) => {
 };
 
 export default filter;
+
+filter.prototype = {
+  value: PropTypes.string,
+  onChange: PropTypes.func,
+};
