@@ -1,8 +1,8 @@
 import { Component } from "react";
-import Section from "./components/section/Section";
-import ContactList from "./components/phonebook/contactList/ContactList";
-import Phonebook from "./components/phonebook/Phonebook";
-import Filter from "./components/phonebook/filter/Filter";
+import Section from "../components/section/Section";
+import ContactList from "../components/phonebook/contactList/ContactList";
+import Phonebook from "../components/phonebook/Phonebook/Phonebook";
+import Filter from "../components/phonebook/filter/Filter";
 
 class App extends Component {
   constructor() {

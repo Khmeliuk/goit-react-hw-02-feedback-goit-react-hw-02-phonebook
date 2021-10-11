@@ -1,6 +1,6 @@
 import { Component } from "react";
 import PropTypes from "prop-types";
-import Section from "../section/Section";
+import Section from "../../section/Section";
 import s from "./Phonebook.module.css";
 import { v4 as uuidv4 } from "uuid";
 
